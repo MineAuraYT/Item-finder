@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+// Fabric Loom registers its own remapped-mod repository during configuration.
+// Do not enforce settings-only dependency repositories here.
+rootProject.name = 'item-finder'

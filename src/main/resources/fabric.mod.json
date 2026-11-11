@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "itemfinder",
+  "version": "${version}",
+  "name": "Item Finder",
+  "description": "Search nearby loaded chests, barrels and placed shulker boxes for items in single-player worlds.",
+  "authors": ["MineAura"],
+  "license": "MIT",
+  "icon": "assets/itemfinder/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mineaura.itemfinder.ItemFinderClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-key-mapping-api-v1": "*"
+  }
+}
